@@ -4,7 +4,7 @@ A collection of web-extensions for Firefox.
 
 ## success_rates
 
-This web-extension works on all treeherder pages and shows the SETA scheduling success rate given the revisions that are listed in the treeherder view. When more revisions are addded to the view, the success rate will recompute itself.
+This web-extension works on all treeherder pages and shows the SETA and Code Coverage scheduling success rate given the revisions that are listed in the treeherder view. When more revisions are addded to the view, the success rate will recompute itself.
 
 Instructions for setup: 
 1. Clone this repository locally.
