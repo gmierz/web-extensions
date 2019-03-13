@@ -15,3 +15,7 @@ Instructions for setup:
 Notes:
 1. When there is no fixed-by-commit data found for a requested range, 'No data found' will be displayed at the top.
 2. Sometimes there are unavoidable network errors that can be seen in the log - a refresh will usually solve these. (The active data query can take a while as well).
+
+## tuid_annotate
+
+Same instructions as success_rates, but you should test it out on a phabricator review such as: https://phabricator.services.mozilla.com/D22454
