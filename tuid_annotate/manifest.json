@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "TUID Phabricator Annotation Service",
+  "version": "1.0",
+
+  "description": "Annotates diffs with coverage information.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://phabricator.services.mozilla.com/*"],
+      "js": ["annotate_coverage.js"]
+    }
+  ],
+
+  "permissions": [
+    "*://phabricator.services.mozilla.com/*",
+    "*://activedata.allizom.org/query*",
+    "*://activedata.allizom.org/tuid*"
+  ]
+
+}
