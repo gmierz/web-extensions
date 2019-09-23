@@ -1,0 +1,32 @@
+{
+
+  "manifest_version": 2,
+  "name": "Slack Mozilla Mods",
+  "version": "1.0",
+
+  "description": "Modifies messages on Slack.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://app.slack.com/*"],
+      "js": ["slack_mods_main.js"]
+    }
+  ],
+
+  "permissions": [
+    "*://app.slack.com/*",
+    "storage"
+  ],
+
+  "options_ui": {
+      "page": "options.html",
+      "browser_style": true
+  },
+
+  "applications": {
+      "gecko": {
+          "id": "slack-mods-main@mozilla.org",
+          "strict_min_version": "57.0a1"
+      }
+  }
+}

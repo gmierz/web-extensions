@@ -1,0 +1,8 @@
+{
+  "name": "slack-mods-main@mozilla.org",
+  "description": "ignored",
+  "type": "storage",
+  "data": {
+    "slack-user-color": "#E2EDFF"
+  }
+}
